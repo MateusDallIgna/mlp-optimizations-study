@@ -1,0 +1,34 @@
+# Build directories
+build/
+cmake-build-*/
+.cache/
+
+# Compiled binaries
+mlp
+mlpGpu
+mlpCublas
+mlpCuda
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled object files
+*.o
+*.obj
+*.cuo
+
+# Results/output
+*.csv
+results/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
