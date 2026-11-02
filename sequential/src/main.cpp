@@ -17,7 +17,7 @@ const int EPOCHS = 10;
 const float LEARNING_RATE = 0.005;
 
 auto dataset =
-    mnist::read_dataset<std::vector, std::vector, uint8_t, uint8_t>("../../data");
+    mnist::read_dataset<std::vector, std::vector, uint8_t, uint8_t>("../data");
 
 int main() {
 

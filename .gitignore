@@ -8,6 +8,9 @@ mlp
 mlpGpu
 mlpCublas
 mlpCuda
+mlpSequential
+mlpOpenmp
+obj/
 
 # CMake generated
 CMakeCache.txt
@@ -24,6 +27,9 @@ build/Makefile
 # Results/output
 *.csv
 results/
+
+# Dataset (download with scripts/get_data.sh)
+data/*-ubyte
 
 # IDE/editor files
 .vscode/
